@@ -1,0 +1,1 @@
+This is a sample application which uses ECS, CF distribution and static website in S3. The base infrastructure is set up via terraform but actual files in S3 are uploaded via cicd and a task definition is also updated via cicd
