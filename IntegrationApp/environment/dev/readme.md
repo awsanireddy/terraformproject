@@ -1,3 +1,0 @@
-This project is to showcase my skills around terraform and the version I am using is terraform 12. Most of my work is around the projects that I have worked in the organization and I don't have a separate code portfolio, I apologize for that. I will go over high level overview on how the project is structured and how various platform applications can be used in a single Terraform project.
-
-This terraform creates an application which is deployed to a ec2 , rds and efs deployed in a private subnet and a load balancer which receives traffic - I am creating internal load balancer which is connected via VPN. I have used packer_project to create an AMI with configs pushed to EFS and password gets reset and pushed to secrets manager.
