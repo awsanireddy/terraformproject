@@ -13,11 +13,8 @@ source_ami = "ami-039a49e70ea773ffc"
 customer = "haproxy-test"
 //Standard default Tags for all resources
 standard_tags = {
-  billing-product = "prod1"
-  billing-component = "ie"
-  billing-environment = "test"
-  Owner = "delivery"
-  ParkMyCloud = "schedule1"
+  product = "prod1"
+  environment = "test"
 }
 
 // Mirth Ports set up for Internal load balancers and security groups
