@@ -14,11 +14,8 @@ namespace = "product-product1-test"
 //Standard default Tags for all resources
 standard_tags = {
   Name = "product-product1-test-haproxy"
-  billing-product = "ENS"
-  billing-component = "product1"
-  billing-environment = "test"
-  Owner = "delivery"
-  ParkMyCloud = "easterndefault"
+  product = "product1"
+  environment = "test"
 }
 
 networklb_ports = [
